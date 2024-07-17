@@ -218,18 +218,18 @@ body{
     transform:rotate(-45deg);
 }
 .header-image {
-    position: relative; /* Ensure the container is positioned relative */
+    position: relative; 
     float: right;
     width: 40%;
     height: 100vh;
-    overflow: hidden; /* Hide overflow to contain the mask */
+    overflow: hidden; 
 }
 
 .header-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensure the image covers the entire container */
-    mask-image: linear-gradient(to left, rgba(0,0,0,0.4), rgba(0,0,0,0)); /* Apply mask gradient */
+    object-fit: cover; 
+    mask-image: linear-gradient(to left, rgba(0,0,0,0.4), rgba(0,0,0,0)); 
 }
 
 .header-content{
@@ -1075,7 +1075,7 @@ padding-bottom: 40px;
 .contact-info{
     width: 40%;
     height: 500px;
-    background: url(contact-back.jpg);
+    background: url(../images/contact-back.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 16px;
@@ -1373,7 +1373,8 @@ For devices with smaller width like mobile phone
     .header-image{
         float: right;
         height: auto;
-        width: 0%;   
+        width: 100%;   
+        height: 100%;
     }
     .social-media-links{
         width: 100%;
@@ -1828,7 +1829,8 @@ for tabs and large phones
     .header-image{
         float: right;
         height: auto;
-        width: 0%;   
+        width:100%;  
+         
     }
     .social-media-links{
         width: 100%;
@@ -1851,7 +1853,7 @@ for tabs and large phones
         display: none;
     }
     #breaker{
-        height: 100vh;
+        height: 50vh;
         width: 200%;
         background-color: #04A777;
         opacity: 1;
